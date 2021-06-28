@@ -1,0 +1,106 @@
+*{margin:0;}
+.header-logo{
+	font-size:36px;
+	padding:20px 40px;
+	float:left;
+	font-family:Comic Sans MS;
+	color:white;
+}
+
+.header{
+	background-color:rgba(34,49,52,0.9);
+	height:90px;
+}
+.header-img{
+	float:left;
+	height:90px;
+	width:130px;
+}
+
+.background-paper{
+	background-image:url(C:/Users/user/Desktop/サブライム/HTML/image/main_6.jpg);
+	background-size:cover;
+	height:84vh;
+	width:100%;
+}
+.header-list li{
+	list-style: none;
+	margin:30px;
+	padding:0 5px;
+	float:left;
+	font-family:serif,Comic Sans MS;
+	font-size:20px;
+	text-align:center;
+	line-height:30px;
+}
+.header-list li:hover{
+	background-color:black;
+	border-radius:4px;
+	transition:0.5s;
+	box-shadow:7px 7px white;
+}
+
+.SYFTwitter{
+	float:right;
+	margin:0 auto;
+	font-size:50px;
+	padding:10px 100px 0px 0px;
+	font-family:Comic Sans MS;
+	color:white;
+}
+.twitter-timeline{
+	float:right;
+}
+.fotter-list li{
+	list-style: none;
+	margin-top:10px;
+	padding:0 15px;
+	float:left;
+	font-family:serif,Comic Sans MS;
+	font-size:20px;
+	text-align:center;
+}
+.fotter{
+	background-color:rgba(34,49,52,0.9);
+	height:60px;
+}
+.fotter-list li:hover{
+	background-color:black;
+	border-radius:4px;
+	transition:0.5s;
+	box-shadow:7px 7px white;
+}
+a{
+	line-height:40px;
+	text-decoration-line: none;
+	display:block;
+	color:white;
+}
+.main-contents{
+	position:relative;
+	text-align:center;
+}
+
+.txt-contents{
+	position:absolute;
+	top:40%;
+	right:200px;
+ 	width:100%;
+  	color:#00FFFF	;
+  	font-size:40px;
+  	font-family:Comic Sans MS;
+}
+.header-list li:active{
+	box-shadow:none;
+  	position:relative;
+  	top:7px;
+}
+.menu-icon {
+  		color: white;
+  		float: left;
+  		line-height:40px;
+  		font-size: 25px;
+ 		padding: 0px 0 0 20px;
+  		/* displayをnoneに指定してください */
+  		display:none;
+}

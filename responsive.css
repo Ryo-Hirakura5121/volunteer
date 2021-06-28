@@ -1,0 +1,38 @@
+/*タブレット向けレイアウト*/
+@media (max-width:1000px){
+	.header{
+		width:100%;
+	}
+	.menu-icon{
+		display:block;
+	}
+}
+
+
+
+
+/*スマートフォン向けサイト*/
+
+@media (max-width:670px){
+	.header-img{
+		display:none;
+	}
+	.header-logo{
+		display:none;
+	}
+	.header-list li{
+		display:none;
+	}
+	.footer{
+		width:100%;
+		text-align:center;
+	}
+	.menu-icon{
+    	display:block;
+  	}
+  	.SYFTwitter{
+  		display:none;
+ 	}
+ 	
+ }
+
